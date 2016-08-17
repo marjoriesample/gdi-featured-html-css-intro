@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
 
   <head>
@@ -54,6 +54,13 @@
       <h2>Class 1</h2>
     </section>
 
+    <section>
+      <h3>Intro!</h3>
+      <img src="https://static.wixstatic.com/media/c40810_7c743d0b50a84e3ea66a5a42c596fbb4.jpg/v1/fill/w_183,h_183,al_c,q_80,usm_0.66_1.00_0.01/c40810_7c743d0b50a84e3ea66a5a42c596fbb4.jpg" alt="headshot of Marjorie" class="noborder">
+      <div class = "left-align">
+      <p>My name is Marjorie Sample. If you would like to follow along with these slides, please visit my website at: <a href="http://www.sampletechteach.com">www.sampletechteach.com</a></p>
+    </section>
+
     <!-- Welcome-->
     <section class="hide-pdf">
       <h3>Welcome!</h3>
@@ -76,7 +83,7 @@
       <ul>
         <li>Who are you?</li>
         <li>What do you hope to get out of the class?</li>
-        <li>What is your favorite or dream vacation destination?</li>
+        <li>What is your favorite thing to do?</li>
       </ul>
       </div>
     </section>
@@ -180,8 +187,8 @@
 
     <section>
       <h3>Goals</h3>
-      <img src="img/goal.jpg" alt="Soccer goal on beach"/>
-      <p><small>Photo credit: <a href="http://www.flickr.com/photos/corscri/1320198723/">Corscri Daje Tutti!</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
+      <img src="http://imgfave-herokuapp-com.global.ssl.fastly.net/image_cache/1444226337427435.jpg" alt="Cat with soccer ball"/>
+      <p><small>Photo credit: <a href="http://imgfave.com/search/cat%20goal">Cat Goals!</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
     </section>
     <section>
       <h3>Final project</h3>
@@ -202,14 +209,15 @@
       <h3>Anatomy of a website</h3>
       <p>Concrete example:</p>
       <ul>
-        <li>A paragraph is your <strong>content</strong></li>
+        <li>A paragraph is your <strong>content.</strong></li>
         <li>Putting your content into an HTML tag to make it look like a paragraph is <strong>structure</strong>
 <pre><code class ="html">&lt;p&gt;A paragraph is your content&lt;/p&gt;
 </code></pre>
         </li>
         <li>Making the font of your paragraph green and 24px is <strong>presentation</strong><br />
-        <p style="font-size:24px; color:green;">A paragraph is your content</p>
+        <pre><code class ="html"><p style="font-size:24px; color:green;">A paragraph is your content</p></code></pre>
         </li>
+          <p style="font-size:24px; color:green;">A paragraph is your content</p>
       </ul>
     </section>
 
@@ -317,6 +325,7 @@ www.w3.org/TR/html4/loose.dtd"&gt;
     <section>
       <h3>Head and Body Tags</h3>
       <p><strong>Head:</strong> The head contains the title of the page &amp; meta information about the page. Meta information is not visible to the user, but has many purposes, like providing information to search engines.</p>
+        <br>
       <p><strong>Body:</strong> The body contains the actual content of the page. Everything that is contained in the body is visible to the user.</p>
     </section>
 
@@ -350,14 +359,21 @@ www.w3.org/TR/html4/loose.dtd"&gt;
     <!-- Nesting-->
     <section>
       <h3>Nesting</h3>
-      <p>All elements "nest" inside one another</p>
-      <p>Nesting is what happens when you put other containing tags inside other containing tags. For example, you would put the &lt;p&gt; inside of the &lt;body&gt; tags. The &lt;p&gt; is now nested inside the &lt;body&gt;</p>
+      <img src="https://cdn.meme.am/instances/62194427.jpg" alt="Nesting Meme" />
+      <p>All elements "nest" inside one another.</p>
+    </section>
+
+    <section>
+      <h3>Nesting Continued</h3>
+      <p>Nesting is what happens when you put other containing tags inside other containing tags.</p>
+        <br>
+      <p>For example, you would put the &lt;p&gt; inside of the &lt;body&gt; tags. The &lt;p&gt; is now nested inside the &lt;body&gt;.</p>
     </section>
 
     <section>
       <h3>Nesting Order</h3>
       <img src = "img/owls.jpg" alt="Nesting owl dolls"/>
-      <p>Whichever element OPENS first CLOSES last</p>
+      <p>Whichever element OPENS first CLOSES last.</p>
     </section>
 
     <section>
@@ -432,7 +448,8 @@ www.w3.org/TR/html4/loose.dtd"&gt;
         <h5 style = "font-size: 85%">Heading 5</h5>
         <h6 style = "font-size: 75%">Heading 6</h6>
       </div>
-      <p class="clear"><small>* Heading number indicates hierarchy, not size. Think of outlines from high school papers</small></p>
+      <br>
+      <p class="clear"><small>* Heading number indicates hierarchy, not size. Think of outlines from high school papers.</small></p>
     </div>
     </section>
 
@@ -476,7 +493,7 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
         <li>Href attribute: "http://www.girldevelopit.com"</li>
         <li>Title attribute: "Girl Develop It"</li>
       </ul>
-<pre><code class="html">&lt;a href="http://www.girldevelopit.com" title="Girl Develop It"&gt;Girl Develop It&lt;/a&gt;<
+<pre><code class="html">&lt;a href="http://www.girldevelopit.com" title="Girl Develop It"&gt;Girl Develop It&lt;/a&gt;
 </code></pre>
       <p><a href ="http://www.girldevelopit.com" title="Girl Develop It">Girl Develop It</a></p>
       <p>The &lt;a&gt; tag surrounds text or images to turn them into links</p>
@@ -499,19 +516,17 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
     <section>
       <h3>Relative vs. Absolute paths for links &amp; images</h3>
       <ul>
-        <li><strong>Relative</strong><br />
-        Relative paths change depending upon the page the link is on.
+        <strong>Relative</strong><br/>
         <ul>
+          <li>Relative paths change depending upon the page the link is on.</li>
           <li><small>Links within the same directory need no path information. <code>"filename.jpg"</code></small></li>
           <li><small>Subdirectories are listed without preceding slashes. <code>"img/filename.jpg"</code></small></li>
         </ul>
-        </li>
-        <li><strong>Absolute</strong><br />
+        <strong>Absolute</strong><br />
         <ul>
           <li>Absolute paths refer to a specific location of a file, including the domain. <small><code>"http://www.girldevelopit.com/chapters/detroit"</code></small></li>
           <li>Typically used when pointing to a link that is not within your own domain.</li>
         </ul>
-        </li>
       </ul>
     </section>
 
@@ -519,7 +534,12 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
     <section>
       <h3>Let's Develop It</h3>
       <p>Let's add links to our site!</p>
-      <p>Add links that open in the same window, a new window and link to an e-mail address.</p>
+      <ul>
+        <li>Add a link that opens in the same window.</li>
+        <li>Add a link that opens a new window.</li>
+        <li>Add a link to an email address.</li>
+      </ul>
+      <img src="https://i.imgflip.com/18w84b.jpg" alt="link meme"/>
     </section>
 
     <!-- Self-closing elements-->
@@ -567,7 +587,7 @@ Above us only sky
     <section>
       <h3>Let's Develop It!</h3>
       <p>Let's add some images and line breaks to our page.</p>
-      <p>We can even turn our images into links.</p>
+      <p>Bonus Task: Try turning one of your images into a link.</p>
     </section>
 
     <!-- Lists-->
@@ -614,7 +634,7 @@ Above us only sky
     <section>
       <h3>Let's Develop it!</h3>
       <p>Let's add one of each ordered and unordered lists to our page.</p>
-      <p>We can make a list of links or even a list of images!</p>
+      <p>Bonus Task: Try adding a list of links or images.</p>
     </section>
 
     <!--Comments-->
@@ -700,6 +720,7 @@ Above us only sky
 
     <section>
       <h2>Questions?</h2>
+      <img src="http://weknowmemes.com/wp-content/uploads/2012/01/can-you-repeat-the-part-of-the-stuff.jpg" alt="homer simpson question meme"/>
     </section>
 </div><!-- Close slides -->
 
